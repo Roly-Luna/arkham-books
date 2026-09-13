@@ -1,5 +1,6 @@
 -- DATOS DE PRUEBA
-USE ArkhamBooks;
+
+\connect "ArkhamBooks"
 
 -- Editoriales
 INSERT INTO Editorial (nombre_edit) VALUES
@@ -234,3 +235,8 @@ INSERT INTO Detalle_Pedido (id_pedido, id_producto, cantidad, precio_unit) VALUE
 (25, 27, 2, 50.00), (26, 28, 1, 40.00),
 (27, 29, 1, 45.00), (28, 30, 2, 65.00),
 (29, 33, 1, 28.50), (30, 35, 1, 32.00);
+
+-- Verificación final
+SELECT COUNT(*) AS total_productos FROM Producto;
+SELECT COUNT(*) AS total_libros FROM Libro;
+SELECT COUNT(*) AS total_revistas FROM Revista;
