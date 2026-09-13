@@ -1,4 +1,4 @@
--- ARKHAM BOOKS - CONSULTAS Y PRUEBAS
+-- CONSULTAS Y PRUEBAS
 USE ArkhamBooks;
 
 -- 1. Mostrar el catálogo indicando si es libro o revista

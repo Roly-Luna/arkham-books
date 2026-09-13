@@ -1,4 +1,4 @@
--- ARKHAM BOOKS - DATOS DE PRUEBA
+-- DATOS DE PRUEBA
 USE ArkhamBooks;
 
 -- Editoriales
