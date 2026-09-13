@@ -6,7 +6,7 @@
     "height": 2000,
     "scrollTop": 0,
     "scrollLeft": 0,
-    "originX": 430.1672,
+    "originX": 429.1672,
     "originY": 742.1197,
     "zoomLevel": 0.76,
     "show": 495,
@@ -1617,34 +1617,6 @@
         "meta": {
           "updateAt": 1788956035534,
           "createAt": 1788956035534
-        }
-      },
-      "HM2AF2HvPiEMPHjBPNZxN": {
-        "id": "HM2AF2HvPiEMPHjBPNZxN",
-        "identification": false,
-        "relationshipType": 16,
-        "startRelationshipType": 2,
-        "start": {
-          "tableId": "wOHG9qb7k1s1xzzns85yg",
-          "columnIds": [
-            "qxtHkvwdVGGOBM7US0Ili"
-          ],
-          "x": -432.8653,
-          "y": -379.04560000000004,
-          "direction": 1
-        },
-        "end": {
-          "tableId": "lCnyuCg5o2PuQGb6eV4-h",
-          "columnIds": [
-            "wRrEbc4Ky5DUoDFMPCzo4"
-          ],
-          "x": -562.1313,
-          "y": -4.694800000000001,
-          "direction": 2
-        },
-        "meta": {
-          "updateAt": 1788956038416,
-          "createAt": 1788956038416
         }
       },
       "3Z-crpsOZB2gS9tJl6Vo3": {
