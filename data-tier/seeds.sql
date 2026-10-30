@@ -1,4 +1,15 @@
--- DATOS DE PRUEBA
+-- Demo data for a fresh and empty database only
+-- Never run this file against a database with real group data
+
+DO $
+BEGIN
+    IF EXISTS (SELECT 1 FROM usuario)
+       OR EXISTS (SELECT 1 FROM producto)
+       OR EXISTS (SELECT 1 FROM editorial) THEN
+        RAISE EXCEPTION 'seeds.sql requires an empty database';
+    END IF;
+END
+$;
 
 \connect "ArkhamBooks"
 
